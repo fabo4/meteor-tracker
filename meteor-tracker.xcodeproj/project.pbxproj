@@ -56,6 +56,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BEC069731D93100C0067D4F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEE9DD1D1D930C7B00B6CAAB /* AppDelegate.swift */,
+				BEE9DD291D930C7B00B6CAAB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEC069741D93101E0067D4F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BEE9DD241D930C7B00B6CAAB /* Assets.xcassets */,
+				BEE9DD261D930C7B00B6CAAB /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BEC069751D9310390067D4F3 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				BEC069771D9310580067D4F3 /* View */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		BEC069761D9310460067D4F3 /* Meteor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Meteor;
+			sourceTree = "<group>";
+		};
+		BEC069771D9310580067D4F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEE9DD1F1D930C7B00B6CAAB /* ViewController.swift */,
+				BEE9DD211D930C7B00B6CAAB /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		BEE9DD111D930C7A00B6CAAB = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +119,9 @@
 		BEE9DD1C1D930C7B00B6CAAB /* meteor-tracker */ = {
 			isa = PBXGroup;
 			children = (
-				BEE9DD1D1D930C7B00B6CAAB /* AppDelegate.swift */,
-				BEE9DD1F1D930C7B00B6CAAB /* ViewController.swift */,
-				BEE9DD211D930C7B00B6CAAB /* Main.storyboard */,
-				BEE9DD241D930C7B00B6CAAB /* Assets.xcassets */,
-				BEE9DD261D930C7B00B6CAAB /* LaunchScreen.storyboard */,
-				BEE9DD291D930C7B00B6CAAB /* Info.plist */,
+				BEE9DD3D1D930EAD00B6CAAB /* Core */,
+				BEC069741D93101E0067D4F3 /* Resources */,
+				BEC069731D93100C0067D4F3 /* Supporting Files */,
 			);
 			path = "meteor-tracker";
 			sourceTree = "<group>";
@@ -94,6 +133,15 @@
 				BEE9DD341D930C7B00B6CAAB /* Info.plist */,
 			);
 			path = "meteor-trackerTests";
+			sourceTree = "<group>";
+		};
+		BEE9DD3D1D930EAD00B6CAAB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BEC069761D9310460067D4F3 /* Meteor */,
+				BEC069751D9310390067D4F3 /* List */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,6 +459,7 @@
 				BEE9DD391D930C7B00B6CAAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEE9DD3A1D930C7B00B6CAAB /* Build configuration list for PBXNativeTarget "meteor-trackerTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +468,7 @@
 				BEE9DD3C1D930C7B00B6CAAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
