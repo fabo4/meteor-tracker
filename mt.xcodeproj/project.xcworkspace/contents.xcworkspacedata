@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:meteor-tracker.xcodeproj">
+      location = "self:/Users/ondrejfabian/Work/Funtasty/meteor-tracker/mt.xcodeproj">
    </FileRef>
 </Workspace>

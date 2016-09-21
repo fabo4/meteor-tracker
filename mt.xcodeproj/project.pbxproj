@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEC0699A1D9315A50067D4F3 /* mtcore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC069911D9315A50067D4F3 /* mtcore.framework */; };
+		BEC069A11D9315A50067D4F3 /* mtcoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC069A01D9315A50067D4F3 /* mtcoreTests.swift */; };
+		BEC069A31D9315A50067D4F3 /* mtcore.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC069931D9315A50067D4F3 /* mtcore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC069A61D9315A50067D4F3 /* mtcore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC069911D9315A50067D4F3 /* mtcore.framework */; };
+		BEC069A71D9315A50067D4F3 /* mtcore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEC069911D9315A50067D4F3 /* mtcore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BEE9DD1E1D930C7B00B6CAAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE9DD1D1D930C7B00B6CAAB /* AppDelegate.swift */; };
 		BEE9DD201D930C7B00B6CAAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE9DD1F1D930C7B00B6CAAB /* ViewController.swift */; };
 		BEE9DD231D930C7B00B6CAAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE9DD211D930C7B00B6CAAB /* Main.storyboard */; };
@@ -16,6 +21,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BEC0699B1D9315A50067D4F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEE9DD121D930C7A00B6CAAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEC069901D9315A50067D4F3;
+			remoteInfo = mtcore;
+		};
+		BEC0699D1D9315A50067D4F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEE9DD121D930C7A00B6CAAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEE9DD191D930C7A00B6CAAB;
+			remoteInfo = "meteor-tracker";
+		};
+		BEC069A41D9315A50067D4F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEE9DD121D930C7A00B6CAAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEC069901D9315A50067D4F3;
+			remoteInfo = mtcore;
+		};
 		BEE9DD2F1D930C7B00B6CAAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BEE9DD121D930C7A00B6CAAB /* Project object */;
@@ -25,24 +51,60 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BEC069AD1D9315A50067D4F3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BEC069A71D9315A50067D4F3 /* mtcore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		BEE9DD1A1D930C7B00B6CAAB /* meteor-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "meteor-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC069911D9315A50067D4F3 /* mtcore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mtcore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC069931D9315A50067D4F3 /* mtcore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mtcore.h; sourceTree = "<group>"; };
+		BEC069941D9315A50067D4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC069991D9315A50067D4F3 /* mtcoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mtcoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC069A01D9315A50067D4F3 /* mtcoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = mtcoreTests.swift; path = mtcoreTests/mtcoreTests.swift; sourceTree = "<group>"; };
+		BEC069A21D9315A50067D4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEE9DD1A1D930C7B00B6CAAB /* mt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE9DD1D1D930C7B00B6CAAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEE9DD1F1D930C7B00B6CAAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BEE9DD221D930C7B00B6CAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEE9DD241D930C7B00B6CAAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEE9DD271D930C7B00B6CAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEE9DD291D930C7B00B6CAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEE9DD2E1D930C7B00B6CAAB /* meteor-trackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "meteor-trackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEE9DD321D930C7B00B6CAAB /* meteor_trackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meteor_trackerTests.swift; sourceTree = "<group>"; };
+		BEE9DD2E1D930C7B00B6CAAB /* mtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE9DD321D930C7B00B6CAAB /* meteor_trackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = meteor_trackerTests.swift; path = "meteor-trackerTests/meteor_trackerTests.swift"; sourceTree = "<group>"; };
 		BEE9DD341D930C7B00B6CAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BEC0698D1D9315A50067D4F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC069961D9315A50067D4F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC0699A1D9315A50067D4F3 /* mtcore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEE9DD171D930C7A00B6CAAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC069A61D9315A50067D4F3 /* mtcore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,10 +121,14 @@
 		BEC069731D93100C0067D4F3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BEE9DD311D930C7B00B6CAAB /* meteor-trackerTests */,
+				BEC0699F1D9315A50067D4F3 /* mtcoreTests */,
+				BEC069921D9315A50067D4F3 /* mtcore */,
 				BEE9DD1D1D930C7B00B6CAAB /* AppDelegate.swift */,
 				BEE9DD291D930C7B00B6CAAB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			path = "meteor-tracker";
 			sourceTree = "<group>";
 		};
 		BEC069741D93101E0067D4F3 /* Resources */ = {
@@ -72,6 +138,7 @@
 				BEE9DD261D930C7B00B6CAAB /* LaunchScreen.storyboard */,
 			);
 			name = Resources;
+			path = "meteor-tracker";
 			sourceTree = "<group>";
 		};
 		BEC069751D9310390067D4F3 /* List */ = {
@@ -98,11 +165,41 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		BEC069921D9315A50067D4F3 /* mtcore */ = {
+			isa = PBXGroup;
+			children = (
+				BEC069931D9315A50067D4F3 /* mtcore.h */,
+				BEC069941D9315A50067D4F3 /* Info.plist */,
+			);
+			name = mtcore;
+			path = ../mtcore;
+			sourceTree = "<group>";
+		};
+		BEC0699F1D9315A50067D4F3 /* mtcoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEC069A21D9315A50067D4F3 /* Info.plist */,
+			);
+			name = mtcoreTests;
+			path = ../mtcoreTests;
+			sourceTree = "<group>";
+		};
+		BEC069AF1D9315CE0067D4F3 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				BEE9DD321D930C7B00B6CAAB /* meteor_trackerTests.swift */,
+				BEC069A01D9315A50067D4F3 /* mtcoreTests.swift */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
 		BEE9DD111D930C7A00B6CAAB = {
 			isa = PBXGroup;
 			children = (
-				BEE9DD1C1D930C7B00B6CAAB /* meteor-tracker */,
-				BEE9DD311D930C7B00B6CAAB /* meteor-trackerTests */,
+				BEE9DD1C1D930C7B00B6CAAB /* Core */,
+				BEC069AF1D9315CE0067D4F3 /* Test */,
+				BEC069741D93101E0067D4F3 /* Resources */,
+				BEC069731D93100C0067D4F3 /* Supporting Files */,
 				BEE9DD1B1D930C7B00B6CAAB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,63 +207,105 @@
 		BEE9DD1B1D930C7B00B6CAAB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BEE9DD1A1D930C7B00B6CAAB /* meteor-tracker.app */,
-				BEE9DD2E1D930C7B00B6CAAB /* meteor-trackerTests.xctest */,
+				BEE9DD1A1D930C7B00B6CAAB /* mt.app */,
+				BEE9DD2E1D930C7B00B6CAAB /* mtTests.xctest */,
+				BEC069911D9315A50067D4F3 /* mtcore.framework */,
+				BEC069991D9315A50067D4F3 /* mtcoreTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BEE9DD1C1D930C7B00B6CAAB /* meteor-tracker */ = {
-			isa = PBXGroup;
-			children = (
-				BEE9DD3D1D930EAD00B6CAAB /* Core */,
-				BEC069741D93101E0067D4F3 /* Resources */,
-				BEC069731D93100C0067D4F3 /* Supporting Files */,
-			);
-			path = "meteor-tracker";
-			sourceTree = "<group>";
-		};
-		BEE9DD311D930C7B00B6CAAB /* meteor-trackerTests */ = {
-			isa = PBXGroup;
-			children = (
-				BEE9DD321D930C7B00B6CAAB /* meteor_trackerTests.swift */,
-				BEE9DD341D930C7B00B6CAAB /* Info.plist */,
-			);
-			path = "meteor-trackerTests";
-			sourceTree = "<group>";
-		};
-		BEE9DD3D1D930EAD00B6CAAB /* Core */ = {
+		BEE9DD1C1D930C7B00B6CAAB /* Core */ = {
 			isa = PBXGroup;
 			children = (
 				BEC069761D9310460067D4F3 /* Meteor */,
 				BEC069751D9310390067D4F3 /* List */,
 			);
 			name = Core;
+			path = "meteor-tracker";
 			sourceTree = "<group>";
+		};
+		BEE9DD311D930C7B00B6CAAB /* meteor-trackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEE9DD341D930C7B00B6CAAB /* Info.plist */,
+			);
+			path = "meteor-trackerTests";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		BEC0698E1D9315A50067D4F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC069A31D9315A50067D4F3 /* mtcore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		BEE9DD191D930C7A00B6CAAB /* meteor-tracker */ = {
+		BEC069901D9315A50067D4F3 /* mtcore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEE9DD371D930C7B00B6CAAB /* Build configuration list for PBXNativeTarget "meteor-tracker" */;
+			buildConfigurationList = BEC069AC1D9315A50067D4F3 /* Build configuration list for PBXNativeTarget "mtcore" */;
 			buildPhases = (
-				BEE9DD161D930C7A00B6CAAB /* Sources */,
-				BEE9DD171D930C7A00B6CAAB /* Frameworks */,
-				BEE9DD181D930C7A00B6CAAB /* Resources */,
+				BEC0698C1D9315A50067D4F3 /* Sources */,
+				BEC0698D1D9315A50067D4F3 /* Frameworks */,
+				BEC0698E1D9315A50067D4F3 /* Headers */,
+				BEC0698F1D9315A50067D4F3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "meteor-tracker";
+			name = mtcore;
+			productName = mtcore;
+			productReference = BEC069911D9315A50067D4F3 /* mtcore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BEC069981D9315A50067D4F3 /* mtcoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC069AE1D9315A50067D4F3 /* Build configuration list for PBXNativeTarget "mtcoreTests" */;
+			buildPhases = (
+				BEC069951D9315A50067D4F3 /* Sources */,
+				BEC069961D9315A50067D4F3 /* Frameworks */,
+				BEC069971D9315A50067D4F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC0699C1D9315A50067D4F3 /* PBXTargetDependency */,
+				BEC0699E1D9315A50067D4F3 /* PBXTargetDependency */,
+			);
+			name = mtcoreTests;
+			productName = mtcoreTests;
+			productReference = BEC069991D9315A50067D4F3 /* mtcoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEE9DD191D930C7A00B6CAAB /* mt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE9DD371D930C7B00B6CAAB /* Build configuration list for PBXNativeTarget "mt" */;
+			buildPhases = (
+				BEE9DD161D930C7A00B6CAAB /* Sources */,
+				BEE9DD171D930C7A00B6CAAB /* Frameworks */,
+				BEE9DD181D930C7A00B6CAAB /* Resources */,
+				BEC069AD1D9315A50067D4F3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC069A51D9315A50067D4F3 /* PBXTargetDependency */,
+			);
+			name = mt;
 			productName = "meteor-tracker";
-			productReference = BEE9DD1A1D930C7B00B6CAAB /* meteor-tracker.app */;
+			productReference = BEE9DD1A1D930C7B00B6CAAB /* mt.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BEE9DD2D1D930C7B00B6CAAB /* meteor-trackerTests */ = {
+		BEE9DD2D1D930C7B00B6CAAB /* mtTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEE9DD3A1D930C7B00B6CAAB /* Build configuration list for PBXNativeTarget "meteor-trackerTests" */;
+			buildConfigurationList = BEE9DD3A1D930C7B00B6CAAB /* Build configuration list for PBXNativeTarget "mtTests" */;
 			buildPhases = (
 				BEE9DD2A1D930C7B00B6CAAB /* Sources */,
 				BEE9DD2B1D930C7B00B6CAAB /* Frameworks */,
@@ -177,9 +316,9 @@
 			dependencies = (
 				BEE9DD301D930C7B00B6CAAB /* PBXTargetDependency */,
 			);
-			name = "meteor-trackerTests";
+			name = mtTests;
 			productName = "meteor-trackerTests";
-			productReference = BEE9DD2E1D930C7B00B6CAAB /* meteor-trackerTests.xctest */;
+			productReference = BEE9DD2E1D930C7B00B6CAAB /* mtTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -192,6 +331,16 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Fabocorp;
 				TargetAttributes = {
+					BEC069901D9315A50067D4F3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					BEC069981D9315A50067D4F3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = M53M9W9F6Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEE9DD191D930C7A00B6CAAB;
+					};
 					BEE9DD191D930C7A00B6CAAB = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Manual;
@@ -204,7 +353,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BEE9DD151D930C7A00B6CAAB /* Build configuration list for PBXProject "meteor-tracker" */;
+			buildConfigurationList = BEE9DD151D930C7A00B6CAAB /* Build configuration list for PBXProject "mt" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,13 +366,29 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BEE9DD191D930C7A00B6CAAB /* meteor-tracker */,
-				BEE9DD2D1D930C7B00B6CAAB /* meteor-trackerTests */,
+				BEE9DD191D930C7A00B6CAAB /* mt */,
+				BEE9DD2D1D930C7B00B6CAAB /* mtTests */,
+				BEC069901D9315A50067D4F3 /* mtcore */,
+				BEC069981D9315A50067D4F3 /* mtcoreTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BEC0698F1D9315A50067D4F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC069971D9315A50067D4F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEE9DD181D930C7A00B6CAAB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -244,6 +409,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BEC0698C1D9315A50067D4F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC069951D9315A50067D4F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC069A11D9315A50067D4F3 /* mtcoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEE9DD161D930C7A00B6CAAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -264,9 +444,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		BEC0699C1D9315A50067D4F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEC069901D9315A50067D4F3 /* mtcore */;
+			targetProxy = BEC0699B1D9315A50067D4F3 /* PBXContainerItemProxy */;
+		};
+		BEC0699E1D9315A50067D4F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEE9DD191D930C7A00B6CAAB /* mt */;
+			targetProxy = BEC0699D1D9315A50067D4F3 /* PBXContainerItemProxy */;
+		};
+		BEC069A51D9315A50067D4F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEC069901D9315A50067D4F3 /* mtcore */;
+			targetProxy = BEC069A41D9315A50067D4F3 /* PBXContainerItemProxy */;
+		};
 		BEE9DD301D930C7B00B6CAAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BEE9DD191D930C7A00B6CAAB /* meteor-tracker */;
+			target = BEE9DD191D930C7A00B6CAAB /* mt */;
 			targetProxy = BEE9DD2F1D930C7B00B6CAAB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -291,6 +486,78 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		BEC069A81D9315A50067D4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = mtcore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.fabo.mtcore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEC069A91D9315A50067D4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = mtcore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.fabo.mtcore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEC069AA1D9315A50067D4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = M53M9W9F6Y;
+				INFOPLIST_FILE = mtcoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.fabo.mtcoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mt.app/mt";
+			};
+			name = Debug;
+		};
+		BEC069AB1D9315A50067D4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = M53M9W9F6Y;
+				INFOPLIST_FILE = mtcoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.fabo.mtcoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mt.app/mt";
+			};
+			name = Release;
+		};
 		BEE9DD351D930C7B00B6CAAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -421,7 +688,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "cz.fabo.meteor-trackerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meteor-tracker.app/meteor-tracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mt.app/mt";
 			};
 			name = Debug;
 		};
@@ -436,14 +703,30 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "cz.fabo.meteor-trackerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meteor-tracker.app/meteor-tracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mt.app/mt";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BEE9DD151D930C7A00B6CAAB /* Build configuration list for PBXProject "meteor-tracker" */ = {
+		BEC069AC1D9315A50067D4F3 /* Build configuration list for PBXNativeTarget "mtcore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC069A81D9315A50067D4F3 /* Debug */,
+				BEC069A91D9315A50067D4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEC069AE1D9315A50067D4F3 /* Build configuration list for PBXNativeTarget "mtcoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC069AA1D9315A50067D4F3 /* Debug */,
+				BEC069AB1D9315A50067D4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEE9DD151D930C7A00B6CAAB /* Build configuration list for PBXProject "mt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEE9DD351D930C7B00B6CAAB /* Debug */,
@@ -452,7 +735,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEE9DD371D930C7B00B6CAAB /* Build configuration list for PBXNativeTarget "meteor-tracker" */ = {
+		BEE9DD371D930C7B00B6CAAB /* Build configuration list for PBXNativeTarget "mt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEE9DD381D930C7B00B6CAAB /* Debug */,
@@ -461,7 +744,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEE9DD3A1D930C7B00B6CAAB /* Build configuration list for PBXNativeTarget "meteor-trackerTests" */ = {
+		BEE9DD3A1D930C7B00B6CAAB /* Build configuration list for PBXNativeTarget "mtTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEE9DD3B1D930C7B00B6CAAB /* Debug */,
