@@ -10,7 +10,10 @@
 		0766434AB500805F788B4D06 /* Pods_mt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E302D03836EB2CAF8157D9D /* Pods_mt.framework */; };
 		4FC7608B37B6B7D84AE79B7E /* Pods_mtcoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5931EC09D5011E40E765B9C /* Pods_mtcoreTests.framework */; };
 		BE7E13CB1DAAD5A700F9617E /* meteors.json in Resources */ = {isa = PBXBuildFile; fileRef = BE7E13CA1DAAD5A700F9617E /* meteors.json */; };
-		BE7E13D11DAAD5FA00F9617E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7E13D01DAAD5FA00F9617E /* Main.storyboard */; };
+		BE7E13DD1DAAD90800F9617E /* ListAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E13DB1DAAD90800F9617E /* ListAssembly.swift */; };
+		BE7E13DE1DAAD90800F9617E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E13DC1DAAD90800F9617E /* ListViewController.swift */; };
+		BE7E13E21DAADA6500F9617E /* List.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7E13E11DAADA6500F9617E /* List.storyboard */; };
+		BE7E13E41DAADB8500F9617E /* MeteorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E13E31DAADB8500F9617E /* MeteorTableViewCell.swift */; };
 		BEC0699A1D9315A50067D4F3 /* mtcore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC069911D9315A50067D4F3 /* mtcore.framework */; };
 		BEC069A11D9315A50067D4F3 /* mtcoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC069A01D9315A50067D4F3 /* mtcoreTests.swift */; };
 		BEC069A31D9315A50067D4F3 /* mtcore.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC069931D9315A50067D4F3 /* mtcore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -64,9 +67,11 @@
 		84E3A3D92DA642ED3481B62C /* Pods-mtcoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mtcoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mtcoreTests/Pods-mtcoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 		888FAD29301D60C259CD4342 /* Pods-mt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mt/Pods-mt.debug.xcconfig"; sourceTree = "<group>"; };
 		B5931EC09D5011E40E765B9C /* Pods_mtcoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mtcoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE7E13C81DAAD53800F9617E /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
 		BE7E13CA1DAAD5A700F9617E /* meteors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = meteors.json; sourceTree = "<group>"; };
-		BE7E13D01DAAD5FA00F9617E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BE7E13DB1DAAD90800F9617E /* ListAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListAssembly.swift; path = Injection/ListAssembly.swift; sourceTree = "<group>"; };
+		BE7E13DC1DAAD90800F9617E /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListViewController.swift; path = View/ListViewController.swift; sourceTree = "<group>"; };
+		BE7E13E11DAADA6500F9617E /* List.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = List.storyboard; path = View/List.storyboard; sourceTree = "<group>"; };
+		BE7E13E31DAADB8500F9617E /* MeteorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MeteorTableViewCell.swift; path = View/MeteorTableViewCell.swift; sourceTree = "<group>"; };
 		BEC069911D9315A50067D4F3 /* mtcore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mtcore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC069931D9315A50067D4F3 /* mtcore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mtcore.h; sourceTree = "<group>"; };
 		BEC069941D9315A50067D4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -137,6 +142,24 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
+		BE7E13DF1DAAD90D00F9617E /* Injection */ = {
+			isa = PBXGroup;
+			children = (
+				BE7E13DB1DAAD90800F9617E /* ListAssembly.swift */,
+			);
+			name = Injection;
+			sourceTree = "<group>";
+		};
+		BE7E13E01DAAD91700F9617E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE7E13DC1DAAD90800F9617E /* ListViewController.swift */,
+				BE7E13E31DAADB8500F9617E /* MeteorTableViewCell.swift */,
+				BE7E13E11DAADA6500F9617E /* List.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		BEC069731D93100C0067D4F3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,7 +175,6 @@
 			isa = PBXGroup;
 			children = (
 				BEE9DD241D930C7B00B6CAAB /* Assets.xcassets */,
-				BE7E13D01DAAD5FA00F9617E /* Main.storyboard */,
 				BE7E13CA1DAAD5A700F9617E /* meteors.json */,
 			);
 			path = Resources;
@@ -161,7 +183,8 @@
 		BEC069751D9310390067D4F3 /* List */ = {
 			isa = PBXGroup;
 			children = (
-				BE7E13C81DAAD53800F9617E /* View */,
+				BE7E13DF1DAAD90D00F9617E /* Injection */,
+				BE7E13E01DAAD91700F9617E /* View */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -337,6 +360,9 @@
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
 			mainGroup = BEE9DD111D930C7A00B6CAAB;
 			productRefGroup = BEE9DD1B1D930C7B00B6CAAB /* Products */;
 			projectDirPath = "";
@@ -368,8 +394,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE7E13D11DAAD5FA00F9617E /* Main.storyboard in Resources */,
 				BEE9DD251D930C7B00B6CAAB /* Assets.xcassets in Resources */,
+				BE7E13E21DAADA6500F9617E /* List.storyboard in Resources */,
 				BE7E13CB1DAAD5A700F9617E /* meteors.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,6 +516,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEE9DD1E1D930C7B00B6CAAB /* AppDelegate.swift in Sources */,
+				BE7E13DD1DAAD90800F9617E /* ListAssembly.swift in Sources */,
+				BE7E13DE1DAAD90800F9617E /* ListViewController.swift in Sources */,
+				BE7E13E41DAADB8500F9617E /* MeteorTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
