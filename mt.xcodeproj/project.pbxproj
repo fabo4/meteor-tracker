@@ -78,7 +78,6 @@
 		BEE9DD241D930C7B00B6CAAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEE9DD271D930C7B00B6CAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEE9DD291D930C7B00B6CAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEE9DD321D930C7B00B6CAAB /* meteor_trackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = meteor_trackerTests.swift; path = "meteor-trackerTests/meteor_trackerTests.swift"; sourceTree = "<group>"; };
 		BEE9DD341D930C7B00B6CAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAE68B722CA7B9DADF76BE18 /* Pods-mt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mt.release.xcconfig"; path = "Pods/Target Support Files/Pods-mt/Pods-mt.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -201,7 +200,6 @@
 		BEC069AF1D9315CE0067D4F3 /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				BEE9DD321D930C7B00B6CAAB /* meteor_trackerTests.swift */,
 				BEC069A01D9315A50067D4F3 /* mtcoreTests.swift */,
 			);
 			name = Test;
@@ -341,10 +339,12 @@
 					BEC069981D9315A50067D4F3 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = M53M9W9F6Y;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					BEE9DD191D930C7A00B6CAAB = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Manual;
 					};
 				};

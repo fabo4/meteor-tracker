@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BEC069981D9315A50067D4F3"
+               BuildableName = "mtcoreTests.xctest"
+               BlueprintName = "mtcoreTests"
+               ReferencedContainer = "container:mt.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BEC069901D9315A50067D4F3"
+            BuildableName = "mtcore.framework"
+            BlueprintName = "mtcore"
+            ReferencedContainer = "container:mt.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
