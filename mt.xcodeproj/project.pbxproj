@@ -14,8 +14,9 @@
 		BE7E13DE1DAAD90800F9617E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E13DC1DAAD90800F9617E /* ListViewController.swift */; };
 		BE7E13E21DAADA6500F9617E /* List.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7E13E11DAADA6500F9617E /* List.storyboard */; };
 		BE7E13E41DAADB8500F9617E /* MeteorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E13E31DAADB8500F9617E /* MeteorTableViewCell.swift */; };
+		BE7E13E81DAADE8A00F9617E /* Meteor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E13E61DAADE8700F9617E /* Meteor.swift */; };
 		BEC0699A1D9315A50067D4F3 /* mtcore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC069911D9315A50067D4F3 /* mtcore.framework */; };
-		BEC069A11D9315A50067D4F3 /* mtcoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC069A01D9315A50067D4F3 /* mtcoreTests.swift */; };
+		BEC069A11D9315A50067D4F3 /* MeteorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC069A01D9315A50067D4F3 /* MeteorTests.swift */; };
 		BEC069A31D9315A50067D4F3 /* mtcore.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC069931D9315A50067D4F3 /* mtcore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEC069A61D9315A50067D4F3 /* mtcore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC069911D9315A50067D4F3 /* mtcore.framework */; };
 		BEC069A71D9315A50067D4F3 /* mtcore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEC069911D9315A50067D4F3 /* mtcore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -72,11 +73,12 @@
 		BE7E13DC1DAAD90800F9617E /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListViewController.swift; path = View/ListViewController.swift; sourceTree = "<group>"; };
 		BE7E13E11DAADA6500F9617E /* List.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = List.storyboard; path = View/List.storyboard; sourceTree = "<group>"; };
 		BE7E13E31DAADB8500F9617E /* MeteorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MeteorTableViewCell.swift; path = View/MeteorTableViewCell.swift; sourceTree = "<group>"; };
+		BE7E13E61DAADE8700F9617E /* Meteor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meteor.swift; sourceTree = SOURCE_ROOT; };
 		BEC069911D9315A50067D4F3 /* mtcore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mtcore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC069931D9315A50067D4F3 /* mtcore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mtcore.h; sourceTree = "<group>"; };
 		BEC069941D9315A50067D4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEC069991D9315A50067D4F3 /* mtcoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mtcoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEC069A01D9315A50067D4F3 /* mtcoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mtcoreTests.swift; sourceTree = "<group>"; };
+		BEC069A01D9315A50067D4F3 /* MeteorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorTests.swift; sourceTree = "<group>"; };
 		BEC069A21D9315A50067D4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEE9DD1A1D930C7B00B6CAAB /* mt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE9DD1D1D930C7B00B6CAAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -160,6 +162,38 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		BE7E13E51DAADE7800F9617E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				BE7E13E61DAADE8700F9617E /* Meteor.swift */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		BE7E13E91DAADEE900F9617E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				BEC069A01D9315A50067D4F3 /* MeteorTests.swift */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		BE7E13EA1DAADEF100F9617E /* Meteor */ = {
+			isa = PBXGroup;
+			children = (
+				BE7E13E91DAADEE900F9617E /* Domain */,
+			);
+			name = Meteor;
+			sourceTree = "<group>";
+		};
+		BE7E13EB1DAADEF800F9617E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BE7E13EA1DAADEF100F9617E /* Meteor */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
 		BEC069731D93100C0067D4F3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +226,7 @@
 		BEC069761D9310460067D4F3 /* Meteor */ = {
 			isa = PBXGroup;
 			children = (
+				BE7E13E51DAADE7800F9617E /* Domain */,
 			);
 			path = Meteor;
 			sourceTree = "<group>";
@@ -216,7 +251,7 @@
 		BEC069AF1D9315CE0067D4F3 /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				BEC069A01D9315A50067D4F3 /* mtcoreTests.swift */,
+				BE7E13EB1DAADEF800F9617E /* Core */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -500,6 +535,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE7E13E81DAADE8A00F9617E /* Meteor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,7 +543,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC069A11D9315A50067D4F3 /* mtcoreTests.swift in Sources */,
+				BEC069A11D9315A50067D4F3 /* MeteorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,6 +750,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 888FAD29301D60C259CD4342 /* Pods-mt.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Supporting Files/Info.plist";
@@ -728,6 +765,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CAE68B722CA7B9DADF76BE18 /* Pods-mt.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Supporting Files/Info.plist";
