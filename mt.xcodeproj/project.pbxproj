@@ -9,17 +9,15 @@
 /* Begin PBXBuildFile section */
 		0766434AB500805F788B4D06 /* Pods_mt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E302D03836EB2CAF8157D9D /* Pods_mt.framework */; };
 		4FC7608B37B6B7D84AE79B7E /* Pods_mtcoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5931EC09D5011E40E765B9C /* Pods_mtcoreTests.framework */; };
-		BE7E13C51DAACFF800F9617E /* meteors.json in Resources */ = {isa = PBXBuildFile; fileRef = BE7E13C41DAACFF800F9617E /* meteors.json */; };
+		BE7E13CB1DAAD5A700F9617E /* meteors.json in Resources */ = {isa = PBXBuildFile; fileRef = BE7E13CA1DAAD5A700F9617E /* meteors.json */; };
+		BE7E13D11DAAD5FA00F9617E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7E13D01DAAD5FA00F9617E /* Main.storyboard */; };
 		BEC0699A1D9315A50067D4F3 /* mtcore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC069911D9315A50067D4F3 /* mtcore.framework */; };
 		BEC069A11D9315A50067D4F3 /* mtcoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC069A01D9315A50067D4F3 /* mtcoreTests.swift */; };
 		BEC069A31D9315A50067D4F3 /* mtcore.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC069931D9315A50067D4F3 /* mtcore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEC069A61D9315A50067D4F3 /* mtcore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC069911D9315A50067D4F3 /* mtcore.framework */; };
 		BEC069A71D9315A50067D4F3 /* mtcore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEC069911D9315A50067D4F3 /* mtcore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BEE9DD1E1D930C7B00B6CAAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE9DD1D1D930C7B00B6CAAB /* AppDelegate.swift */; };
-		BEE9DD201D930C7B00B6CAAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE9DD1F1D930C7B00B6CAAB /* ViewController.swift */; };
-		BEE9DD231D930C7B00B6CAAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE9DD211D930C7B00B6CAAB /* Main.storyboard */; };
 		BEE9DD251D930C7B00B6CAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE9DD241D930C7B00B6CAAB /* Assets.xcassets */; };
-		BEE9DD281D930C7B00B6CAAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE9DD261D930C7B00B6CAAB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,19 +64,18 @@
 		84E3A3D92DA642ED3481B62C /* Pods-mtcoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mtcoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mtcoreTests/Pods-mtcoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 		888FAD29301D60C259CD4342 /* Pods-mt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mt/Pods-mt.debug.xcconfig"; sourceTree = "<group>"; };
 		B5931EC09D5011E40E765B9C /* Pods_mtcoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mtcoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE7E13C41DAACFF800F9617E /* meteors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = meteors.json; path = ../../../../Documents/meteors.json; sourceTree = "<group>"; };
+		BE7E13C81DAAD53800F9617E /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
+		BE7E13CA1DAAD5A700F9617E /* meteors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = meteors.json; sourceTree = "<group>"; };
+		BE7E13D01DAAD5FA00F9617E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BEC069911D9315A50067D4F3 /* mtcore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mtcore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC069931D9315A50067D4F3 /* mtcore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mtcore.h; sourceTree = "<group>"; };
 		BEC069941D9315A50067D4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEC069991D9315A50067D4F3 /* mtcoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mtcoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEC069A01D9315A50067D4F3 /* mtcoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = mtcoreTests.swift; path = mtcoreTests/mtcoreTests.swift; sourceTree = "<group>"; };
+		BEC069A01D9315A50067D4F3 /* mtcoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mtcoreTests.swift; sourceTree = "<group>"; };
 		BEC069A21D9315A50067D4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEE9DD1A1D930C7B00B6CAAB /* mt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE9DD1D1D930C7B00B6CAAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEE9DD1F1D930C7B00B6CAAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BEE9DD221D930C7B00B6CAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEE9DD241D930C7B00B6CAAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BEE9DD271D930C7B00B6CAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEE9DD291D930C7B00B6CAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAE68B722CA7B9DADF76BE18 /* Pods-mt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mt.release.xcconfig"; path = "Pods/Target Support Files/Pods-mt/Pods-mt.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,61 +129,57 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BE7E13C71DAAD4E200F9617E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BEE9DD1C1D930C7B00B6CAAB /* Core */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		BEC069731D93100C0067D4F3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BEC0699F1D9315A50067D4F3 /* mtcoreTests */,
 				BEC069921D9315A50067D4F3 /* mtcore */,
+				BEC0699F1D9315A50067D4F3 /* mtcoreTests */,
 				BEE9DD1D1D930C7B00B6CAAB /* AppDelegate.swift */,
 				BEE9DD291D930C7B00B6CAAB /* Info.plist */,
 			);
-			name = "Supporting Files";
-			path = "meteor-tracker";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		BEC069741D93101E0067D4F3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BE7E13C41DAACFF800F9617E /* meteors.json */,
 				BEE9DD241D930C7B00B6CAAB /* Assets.xcassets */,
-				BEE9DD261D930C7B00B6CAAB /* LaunchScreen.storyboard */,
+				BE7E13D01DAAD5FA00F9617E /* Main.storyboard */,
+				BE7E13CA1DAAD5A700F9617E /* meteors.json */,
 			);
-			name = Resources;
-			path = "meteor-tracker";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		BEC069751D9310390067D4F3 /* List */ = {
 			isa = PBXGroup;
 			children = (
-				BEC069771D9310580067D4F3 /* View */,
+				BE7E13C81DAAD53800F9617E /* View */,
 			);
-			name = List;
+			path = List;
 			sourceTree = "<group>";
 		};
 		BEC069761D9310460067D4F3 /* Meteor */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Meteor;
-			sourceTree = "<group>";
-		};
-		BEC069771D9310580067D4F3 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				BEE9DD1F1D930C7B00B6CAAB /* ViewController.swift */,
-				BEE9DD211D930C7B00B6CAAB /* Main.storyboard */,
-			);
-			name = View;
+			path = Meteor;
 			sourceTree = "<group>";
 		};
 		BEC069921D9315A50067D4F3 /* mtcore */ = {
 			isa = PBXGroup;
 			children = (
-				BEC069931D9315A50067D4F3 /* mtcore.h */,
 				BEC069941D9315A50067D4F3 /* Info.plist */,
+				BEC069931D9315A50067D4F3 /* mtcore.h */,
 			);
-			name = mtcore;
-			path = ../mtcore;
+			path = mtcore;
 			sourceTree = "<group>";
 		};
 		BEC0699F1D9315A50067D4F3 /* mtcoreTests */ = {
@@ -194,8 +187,7 @@
 			children = (
 				BEC069A21D9315A50067D4F3 /* Info.plist */,
 			);
-			name = mtcoreTests;
-			path = ../mtcoreTests;
+			path = mtcoreTests;
 			sourceTree = "<group>";
 		};
 		BEC069AF1D9315CE0067D4F3 /* Test */ = {
@@ -203,19 +195,19 @@
 			children = (
 				BEC069A01D9315A50067D4F3 /* mtcoreTests.swift */,
 			);
-			name = Test;
+			path = Test;
 			sourceTree = "<group>";
 		};
 		BEE9DD111D930C7A00B6CAAB = {
 			isa = PBXGroup;
 			children = (
-				BEE9DD1C1D930C7B00B6CAAB /* Core */,
-				BEC069AF1D9315CE0067D4F3 /* Test */,
-				BEC069741D93101E0067D4F3 /* Resources */,
-				BEC069731D93100C0067D4F3 /* Supporting Files */,
-				BEE9DD1B1D930C7B00B6CAAB /* Products */,
-				8843A43982977311AE3D46AB /* Pods */,
 				58086204121294CF43D3403F /* Frameworks */,
+				8843A43982977311AE3D46AB /* Pods */,
+				BEE9DD1B1D930C7B00B6CAAB /* Products */,
+				BEC069741D93101E0067D4F3 /* Resources */,
+				BE7E13C71DAAD4E200F9617E /* Source */,
+				BEC069731D93100C0067D4F3 /* Supporting Files */,
+				BEC069AF1D9315CE0067D4F3 /* Test */,
 			);
 			sourceTree = "<group>";
 		};
@@ -232,11 +224,10 @@
 		BEE9DD1C1D930C7B00B6CAAB /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				BEC069761D9310460067D4F3 /* Meteor */,
 				BEC069751D9310390067D4F3 /* List */,
+				BEC069761D9310460067D4F3 /* Meteor */,
 			);
-			name = Core;
-			path = "meteor-tracker";
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,10 +337,6 @@
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
 			mainGroup = BEE9DD111D930C7A00B6CAAB;
 			productRefGroup = BEE9DD1B1D930C7B00B6CAAB /* Products */;
 			projectDirPath = "";
@@ -381,10 +368,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEE9DD281D930C7B00B6CAAB /* LaunchScreen.storyboard in Resources */,
+				BE7E13D11DAAD5FA00F9617E /* Main.storyboard in Resources */,
 				BEE9DD251D930C7B00B6CAAB /* Assets.xcassets in Resources */,
-				BEE9DD231D930C7B00B6CAAB /* Main.storyboard in Resources */,
-				BE7E13C51DAACFF800F9617E /* meteors.json in Resources */,
+				BE7E13CB1DAAD5A700F9617E /* meteors.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,7 +489,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEE9DD201D930C7B00B6CAAB /* ViewController.swift in Sources */,
 				BEE9DD1E1D930C7B00B6CAAB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,25 +513,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		BEE9DD211D930C7B00B6CAAB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BEE9DD221D930C7B00B6CAAB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BEE9DD261D930C7B00B6CAAB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BEE9DD271D930C7B00B6CAAB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		BEC069A81D9315A50067D4F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -558,7 +524,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = mtcore/Info.plist;
+				INFOPLIST_FILE = "Supporting Files/mtcore/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.fabo.mtcore;
@@ -580,7 +546,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = mtcore/Info.plist;
+				INFOPLIST_FILE = "Supporting Files/mtcore/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.fabo.mtcore;
@@ -598,7 +564,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = M53M9W9F6Y;
-				INFOPLIST_FILE = mtcoreTests/Info.plist;
+				INFOPLIST_FILE = "Supporting Files/mtcoreTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.fabo.mtcoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -612,7 +578,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = M53M9W9F6Y;
-				INFOPLIST_FILE = mtcoreTests/Info.plist;
+				INFOPLIST_FILE = "Supporting Files/mtcoreTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.fabo.mtcoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -721,7 +687,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "meteor-tracker/Info.plist";
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cz.fabo.meteor-tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -735,7 +701,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "meteor-tracker/Info.plist";
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cz.fabo.meteor-tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
