@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0766434AB500805F788B4D06 /* Pods_mt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E302D03836EB2CAF8157D9D /* Pods_mt.framework */; };
 		4FC7608B37B6B7D84AE79B7E /* Pods_mtcoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5931EC09D5011E40E765B9C /* Pods_mtcoreTests.framework */; };
+		BE7E13C51DAACFF800F9617E /* meteors.json in Resources */ = {isa = PBXBuildFile; fileRef = BE7E13C41DAACFF800F9617E /* meteors.json */; };
 		BEC0699A1D9315A50067D4F3 /* mtcore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC069911D9315A50067D4F3 /* mtcore.framework */; };
 		BEC069A11D9315A50067D4F3 /* mtcoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC069A01D9315A50067D4F3 /* mtcoreTests.swift */; };
 		BEC069A31D9315A50067D4F3 /* mtcore.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC069931D9315A50067D4F3 /* mtcore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -65,6 +66,7 @@
 		84E3A3D92DA642ED3481B62C /* Pods-mtcoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mtcoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mtcoreTests/Pods-mtcoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 		888FAD29301D60C259CD4342 /* Pods-mt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mt/Pods-mt.debug.xcconfig"; sourceTree = "<group>"; };
 		B5931EC09D5011E40E765B9C /* Pods_mtcoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mtcoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7E13C41DAACFF800F9617E /* meteors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = meteors.json; path = ../../../../Documents/meteors.json; sourceTree = "<group>"; };
 		BEC069911D9315A50067D4F3 /* mtcore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mtcore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC069931D9315A50067D4F3 /* mtcore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mtcore.h; sourceTree = "<group>"; };
 		BEC069941D9315A50067D4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,7 +80,6 @@
 		BEE9DD241D930C7B00B6CAAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEE9DD271D930C7B00B6CAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEE9DD291D930C7B00B6CAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEE9DD341D930C7B00B6CAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAE68B722CA7B9DADF76BE18 /* Pods-mt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mt.release.xcconfig"; path = "Pods/Target Support Files/Pods-mt/Pods-mt.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,7 +135,6 @@
 		BEC069731D93100C0067D4F3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BEE9DD311D930C7B00B6CAAB /* meteor-trackerTests */,
 				BEC0699F1D9315A50067D4F3 /* mtcoreTests */,
 				BEC069921D9315A50067D4F3 /* mtcore */,
 				BEE9DD1D1D930C7B00B6CAAB /* AppDelegate.swift */,
@@ -147,6 +147,7 @@
 		BEC069741D93101E0067D4F3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BE7E13C41DAACFF800F9617E /* meteors.json */,
 				BEE9DD241D930C7B00B6CAAB /* Assets.xcassets */,
 				BEE9DD261D930C7B00B6CAAB /* LaunchScreen.storyboard */,
 			);
@@ -237,14 +238,6 @@
 			name = Core;
 			path = "meteor-tracker";
 			sourceTree = "<group>";
-		};
-		BEE9DD311D930C7B00B6CAAB /* meteor-trackerTests */ = {
-			isa = PBXGroup;
-			children = (
-				BEE9DD341D930C7B00B6CAAB /* Info.plist */,
-			);
-			path = "meteor-trackerTests";
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -391,6 +384,7 @@
 				BEE9DD281D930C7B00B6CAAB /* LaunchScreen.storyboard in Resources */,
 				BEE9DD251D930C7B00B6CAAB /* Assets.xcassets in Resources */,
 				BEE9DD231D930C7B00B6CAAB /* Main.storyboard in Resources */,
+				BE7E13C51DAACFF800F9617E /* meteors.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

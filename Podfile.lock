@@ -1,15 +1,18 @@
 PODS:
   - Nimble (5.0.0)
   - Quick (0.10.0)
+  - Swinject (2.0.0-beta.2)
 
 DEPENDENCIES:
   - Nimble
   - Quick
+  - Swinject (= 2.0.0-beta.2)
 
 SPEC CHECKSUMS:
   Nimble: 56fc9f5020effa2206de22c3dd910f4fb011b92f
   Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
+  Swinject: 69a893192efa9f2cc44be79ef423d04d571b6af9
 
-PODFILE CHECKSUM: 6355e03daabbeb338ee238ce8cf880ae6146597e
+PODFILE CHECKSUM: b33b1f76e0ac83bbcb7c598dc6854dc4dceb978a
 
 COCOAPODS: 1.0.1
