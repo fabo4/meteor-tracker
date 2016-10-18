@@ -63,11 +63,11 @@
 		BE19694E1DB6483C00C10F4E /* mtcoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mtcoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1969521DB6483D00C10F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE7E13CA1DAAD5A700F9617E /* meteors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = meteors.json; sourceTree = "<group>"; };
-		BE7E13DB1DAAD90800F9617E /* ListAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListAssembly.swift; path = Injection/ListAssembly.swift; sourceTree = "<group>"; };
-		BE7E13DC1DAAD90800F9617E /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListViewController.swift; path = View/ListViewController.swift; sourceTree = "<group>"; };
-		BE7E13E11DAADA6500F9617E /* List.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = List.storyboard; path = View/List.storyboard; sourceTree = "<group>"; };
-		BE7E13E31DAADB8500F9617E /* MeteorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MeteorTableViewCell.swift; path = View/MeteorTableViewCell.swift; sourceTree = "<group>"; };
-		BE7E13E61DAADE8700F9617E /* Meteor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meteor.swift; sourceTree = SOURCE_ROOT; };
+		BE7E13DB1DAAD90800F9617E /* ListAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListAssembly.swift; sourceTree = "<group>"; };
+		BE7E13DC1DAAD90800F9617E /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		BE7E13E11DAADA6500F9617E /* List.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = List.storyboard; sourceTree = "<group>"; };
+		BE7E13E31DAADB8500F9617E /* MeteorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteorTableViewCell.swift; sourceTree = "<group>"; };
+		BE7E13E61DAADE8700F9617E /* Meteor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meteor.swift; sourceTree = "<group>"; };
 		BEC069911D9315A50067D4F3 /* mtcore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mtcore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC069931D9315A50067D4F3 /* mtcore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mtcore.h; sourceTree = "<group>"; };
 		BEC069941D9315A50067D4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -132,8 +132,7 @@
 			children = (
 				BE1969521DB6483D00C10F4E /* Info.plist */,
 			);
-			name = mtcoreTests;
-			path = ../mtcoreTests;
+			path = mtcoreTests;
 			sourceTree = "<group>";
 		};
 		BE7E13C71DAAD4E200F9617E /* Source */ = {
@@ -149,17 +148,17 @@
 			children = (
 				BE7E13DB1DAAD90800F9617E /* ListAssembly.swift */,
 			);
-			name = Injection;
+			path = Injection;
 			sourceTree = "<group>";
 		};
 		BE7E13E01DAAD91700F9617E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BE7E13E11DAADA6500F9617E /* List.storyboard */,
 				BE7E13DC1DAAD90800F9617E /* ListViewController.swift */,
 				BE7E13E31DAADB8500F9617E /* MeteorTableViewCell.swift */,
-				BE7E13E11DAADA6500F9617E /* List.storyboard */,
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		BE7E13E51DAADE7800F9617E /* Domain */ = {
@@ -167,7 +166,7 @@
 			children = (
 				BE7E13E61DAADE8700F9617E /* Meteor.swift */,
 			);
-			name = Domain;
+			path = Domain;
 			sourceTree = "<group>";
 		};
 		BE7E13E91DAADEE900F9617E /* Domain */ = {
@@ -175,7 +174,7 @@
 			children = (
 				BEC069A01D9315A50067D4F3 /* MeteorTests.swift */,
 			);
-			name = Domain;
+			path = Domain;
 			sourceTree = "<group>";
 		};
 		BE7E13EA1DAADEF100F9617E /* Meteor */ = {
@@ -183,7 +182,7 @@
 			children = (
 				BE7E13E91DAADEE900F9617E /* Domain */,
 			);
-			name = Meteor;
+			path = Meteor;
 			sourceTree = "<group>";
 		};
 		BE7E13EB1DAADEF800F9617E /* Core */ = {
@@ -191,7 +190,7 @@
 			children = (
 				BE7E13EA1DAADEF100F9617E /* Meteor */,
 			);
-			name = Core;
+			path = Core;
 			sourceTree = "<group>";
 		};
 		BEC069731D93100C0067D4F3 /* Supporting Files */ = {
@@ -571,7 +570,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = M53M9W9F6Y;
-				INFOPLIST_FILE = mtcoreTests/Info.plist;
+				INFOPLIST_FILE = "Supporting Files/mtcoreTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = cz.fabo.mtcoreTests;
@@ -588,7 +587,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = M53M9W9F6Y;
-				INFOPLIST_FILE = mtcoreTests/Info.plist;
+				INFOPLIST_FILE = "Supporting Files/mtcoreTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = cz.fabo.mtcoreTests;
