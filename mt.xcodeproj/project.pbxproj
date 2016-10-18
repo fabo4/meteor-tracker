@@ -8,15 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		0766434AB500805F788B4D06 /* Pods_mt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E302D03836EB2CAF8157D9D /* Pods_mt.framework */; };
-		4FC7608B37B6B7D84AE79B7E /* Pods_mtcoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5931EC09D5011E40E765B9C /* Pods_mtcoreTests.framework */; };
+		17CE590AE7352FC9556353E0 /* Pods_mtcoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5931EC09D5011E40E765B9C /* Pods_mtcoreTests.framework */; };
+		BE1969581DB64BC900C10F4E /* MeteorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC069A01D9315A50067D4F3 /* MeteorTests.swift */; };
 		BE7E13CB1DAAD5A700F9617E /* meteors.json in Resources */ = {isa = PBXBuildFile; fileRef = BE7E13CA1DAAD5A700F9617E /* meteors.json */; };
 		BE7E13DD1DAAD90800F9617E /* ListAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E13DB1DAAD90800F9617E /* ListAssembly.swift */; };
 		BE7E13DE1DAAD90800F9617E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E13DC1DAAD90800F9617E /* ListViewController.swift */; };
 		BE7E13E21DAADA6500F9617E /* List.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7E13E11DAADA6500F9617E /* List.storyboard */; };
 		BE7E13E41DAADB8500F9617E /* MeteorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E13E31DAADB8500F9617E /* MeteorTableViewCell.swift */; };
 		BE7E13E81DAADE8A00F9617E /* Meteor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E13E61DAADE8700F9617E /* Meteor.swift */; };
-		BEC0699A1D9315A50067D4F3 /* mtcore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC069911D9315A50067D4F3 /* mtcore.framework */; };
-		BEC069A11D9315A50067D4F3 /* MeteorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC069A01D9315A50067D4F3 /* MeteorTests.swift */; };
 		BEC069A31D9315A50067D4F3 /* mtcore.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC069931D9315A50067D4F3 /* mtcore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEC069A61D9315A50067D4F3 /* mtcore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC069911D9315A50067D4F3 /* mtcore.framework */; };
 		BEC069A71D9315A50067D4F3 /* mtcore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEC069911D9315A50067D4F3 /* mtcore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -25,19 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BEC0699B1D9315A50067D4F3 /* PBXContainerItemProxy */ = {
+		BE1969561DB64BBA00C10F4E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BEE9DD121D930C7A00B6CAAB /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BEC069901D9315A50067D4F3;
 			remoteInfo = mtcore;
-		};
-		BEC0699D1D9315A50067D4F3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BEE9DD121D930C7A00B6CAAB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BEE9DD191D930C7A00B6CAAB;
-			remoteInfo = "meteor-tracker";
 		};
 		BEC069A41D9315A50067D4F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -68,6 +60,8 @@
 		84E3A3D92DA642ED3481B62C /* Pods-mtcoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mtcoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mtcoreTests/Pods-mtcoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 		888FAD29301D60C259CD4342 /* Pods-mt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mt/Pods-mt.debug.xcconfig"; sourceTree = "<group>"; };
 		B5931EC09D5011E40E765B9C /* Pods_mtcoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mtcoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE19694E1DB6483C00C10F4E /* mtcoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mtcoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1969521DB6483D00C10F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE7E13CA1DAAD5A700F9617E /* meteors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = meteors.json; sourceTree = "<group>"; };
 		BE7E13DB1DAAD90800F9617E /* ListAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListAssembly.swift; path = Injection/ListAssembly.swift; sourceTree = "<group>"; };
 		BE7E13DC1DAAD90800F9617E /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListViewController.swift; path = View/ListViewController.swift; sourceTree = "<group>"; };
@@ -77,9 +71,7 @@
 		BEC069911D9315A50067D4F3 /* mtcore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mtcore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC069931D9315A50067D4F3 /* mtcore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mtcore.h; sourceTree = "<group>"; };
 		BEC069941D9315A50067D4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEC069991D9315A50067D4F3 /* mtcoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mtcoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC069A01D9315A50067D4F3 /* MeteorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorTests.swift; sourceTree = "<group>"; };
-		BEC069A21D9315A50067D4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEE9DD1A1D930C7B00B6CAAB /* mt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE9DD1D1D930C7B00B6CAAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEE9DD241D930C7B00B6CAAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,19 +80,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BE19694B1DB6483C00C10F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CE590AE7352FC9556353E0 /* Pods_mtcoreTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEC0698D1D9315A50067D4F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BEC069961D9315A50067D4F3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BEC0699A1D9315A50067D4F3 /* mtcore.framework in Frameworks */,
-				4FC7608B37B6B7D84AE79B7E /* Pods_mtcoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +125,15 @@
 				14FFCE3C73EB05A515E5C7DF /* Pods-mtcoreTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE19694F1DB6483D00C10F4E /* mtcoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE1969521DB6483D00C10F4E /* Info.plist */,
+			);
+			name = mtcoreTests;
+			path = ../mtcoreTests;
 			sourceTree = "<group>";
 		};
 		BE7E13C71DAAD4E200F9617E /* Source */ = {
@@ -198,7 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				BEC069921D9315A50067D4F3 /* mtcore */,
-				BEC0699F1D9315A50067D4F3 /* mtcoreTests */,
+				BE19694F1DB6483D00C10F4E /* mtcoreTests */,
 				BEE9DD1D1D930C7B00B6CAAB /* AppDelegate.swift */,
 				BEE9DD291D930C7B00B6CAAB /* Info.plist */,
 			);
@@ -240,14 +240,6 @@
 			path = mtcore;
 			sourceTree = "<group>";
 		};
-		BEC0699F1D9315A50067D4F3 /* mtcoreTests */ = {
-			isa = PBXGroup;
-			children = (
-				BEC069A21D9315A50067D4F3 /* Info.plist */,
-			);
-			path = mtcoreTests;
-			sourceTree = "<group>";
-		};
 		BEC069AF1D9315CE0067D4F3 /* Test */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,7 +266,7 @@
 			children = (
 				BEE9DD1A1D930C7B00B6CAAB /* mt.app */,
 				BEC069911D9315A50067D4F3 /* mtcore.framework */,
-				BEC069991D9315A50067D4F3 /* mtcoreTests.xctest */,
+				BE19694E1DB6483C00C10F4E /* mtcoreTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -302,6 +294,27 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		BE19694D1DB6483C00C10F4E /* mtcoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1969531DB6483D00C10F4E /* Build configuration list for PBXNativeTarget "mtcoreTests" */;
+			buildPhases = (
+				0377EF1EEAE51478FA054478 /* [CP] Check Pods Manifest.lock */,
+				BE19694A1DB6483C00C10F4E /* Sources */,
+				BE19694B1DB6483C00C10F4E /* Frameworks */,
+				BE19694C1DB6483C00C10F4E /* Resources */,
+				5570D6328223B9B76221E44A /* [CP] Embed Pods Frameworks */,
+				CDCB24E906F26CA52BE98D93 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE1969571DB64BBA00C10F4E /* PBXTargetDependency */,
+			);
+			name = mtcoreTests;
+			productName = mtcoreTests;
+			productReference = BE19694E1DB6483C00C10F4E /* mtcoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		BEC069901D9315A50067D4F3 /* mtcore */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEC069AC1D9315A50067D4F3 /* Build configuration list for PBXNativeTarget "mtcore" */;
@@ -319,28 +332,6 @@
 			productName = mtcore;
 			productReference = BEC069911D9315A50067D4F3 /* mtcore.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		BEC069981D9315A50067D4F3 /* mtcoreTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BEC069AE1D9315A50067D4F3 /* Build configuration list for PBXNativeTarget "mtcoreTests" */;
-			buildPhases = (
-				8D80C95EE23089EA9AC288D9 /* [CP] Check Pods Manifest.lock */,
-				BEC069951D9315A50067D4F3 /* Sources */,
-				BEC069961D9315A50067D4F3 /* Frameworks */,
-				BEC069971D9315A50067D4F3 /* Resources */,
-				B44A1A2324356D62B34CBCE3 /* [CP] Embed Pods Frameworks */,
-				988E09FD49246D838EACD01F /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BEC0699C1D9315A50067D4F3 /* PBXTargetDependency */,
-				BEC0699E1D9315A50067D4F3 /* PBXTargetDependency */,
-			);
-			name = mtcoreTests;
-			productName = mtcoreTests;
-			productReference = BEC069991D9315A50067D4F3 /* mtcoreTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		BEE9DD191D930C7A00B6CAAB /* mt */ = {
 			isa = PBXNativeTarget;
@@ -374,14 +365,13 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Fabocorp;
 				TargetAttributes = {
-					BEC069901D9315A50067D4F3 = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-					};
-					BEC069981D9315A50067D4F3 = {
+					BE19694D1DB6483C00C10F4E = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = M53M9W9F6Y;
-						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					BEC069901D9315A50067D4F3 = {
+						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
 					BEE9DD191D930C7A00B6CAAB = {
@@ -405,20 +395,20 @@
 			targets = (
 				BEE9DD191D930C7A00B6CAAB /* mt */,
 				BEC069901D9315A50067D4F3 /* mtcore */,
-				BEC069981D9315A50067D4F3 /* mtcoreTests */,
+				BE19694D1DB6483C00C10F4E /* mtcoreTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BEC0698F1D9315A50067D4F3 /* Resources */ = {
+		BE19694C1DB6483C00C10F4E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEC069971D9315A50067D4F3 /* Resources */ = {
+		BEC0698F1D9315A50067D4F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -438,6 +428,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0377EF1EEAE51478FA054478 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		30B90B9BC2E95BBA91EB30FC /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -453,19 +458,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mt/Pods-mt-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8D80C95EE23089EA9AC288D9 /* [CP] Check Pods Manifest.lock */ = {
+		5570D6328223B9B76221E44A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mtcoreTests/Pods-mtcoreTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9254443AC990F65FB6701DB8 /* [CP] Embed Pods Frameworks */ = {
@@ -483,21 +488,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mt/Pods-mt-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		988E09FD49246D838EACD01F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mtcoreTests/Pods-mtcoreTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A8DFB9C9286AAB94DE691FE2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -513,37 +503,37 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		B44A1A2324356D62B34CBCE3 /* [CP] Embed Pods Frameworks */ = {
+		CDCB24E906F26CA52BE98D93 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mtcoreTests/Pods-mtcoreTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mtcoreTests/Pods-mtcoreTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BE19694A1DB6483C00C10F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1969581DB64BC900C10F4E /* MeteorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEC0698C1D9315A50067D4F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BE7E13E81DAADE8A00F9617E /* Meteor.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BEC069951D9315A50067D4F3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BEC069A11D9315A50067D4F3 /* MeteorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,15 +551,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BEC0699C1D9315A50067D4F3 /* PBXTargetDependency */ = {
+		BE1969571DB64BBA00C10F4E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BEC069901D9315A50067D4F3 /* mtcore */;
-			targetProxy = BEC0699B1D9315A50067D4F3 /* PBXContainerItemProxy */;
-		};
-		BEC0699E1D9315A50067D4F3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BEE9DD191D930C7A00B6CAAB /* mt */;
-			targetProxy = BEC0699D1D9315A50067D4F3 /* PBXContainerItemProxy */;
+			targetProxy = BE1969561DB64BBA00C10F4E /* PBXContainerItemProxy */;
 		};
 		BEC069A51D9315A50067D4F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -579,6 +564,40 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		BE1969541DB6483D00C10F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84E3A3D92DA642ED3481B62C /* Pods-mtcoreTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M53M9W9F6Y;
+				INFOPLIST_FILE = mtcoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.fabo.mtcoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BE1969551DB6483D00C10F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14FFCE3C73EB05A515E5C7DF /* Pods-mtcoreTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M53M9W9F6Y;
+				INFOPLIST_FILE = mtcoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.fabo.mtcoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		BEC069A81D9315A50067D4F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -592,10 +611,13 @@
 				INFOPLIST_FILE = "Supporting Files/mtcore/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = cz.fabo.mtcore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -614,40 +636,15 @@
 				INFOPLIST_FILE = "Supporting Files/mtcore/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = cz.fabo.mtcore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BEC069AA1D9315A50067D4F3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84E3A3D92DA642ED3481B62C /* Pods-mtcoreTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = M53M9W9F6Y;
-				INFOPLIST_FILE = "Supporting Files/mtcoreTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cz.fabo.mtcoreTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		BEC069AB1D9315A50067D4F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14FFCE3C73EB05A515E5C7DF /* Pods-mtcoreTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = M53M9W9F6Y;
-				INFOPLIST_FILE = "Supporting Files/mtcoreTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cz.fabo.mtcoreTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -779,20 +776,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BE1969531DB6483D00C10F4E /* Build configuration list for PBXNativeTarget "mtcoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1969541DB6483D00C10F4E /* Debug */,
+				BE1969551DB6483D00C10F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BEC069AC1D9315A50067D4F3 /* Build configuration list for PBXNativeTarget "mtcore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEC069A81D9315A50067D4F3 /* Debug */,
 				BEC069A91D9315A50067D4F3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BEC069AE1D9315A50067D4F3 /* Build configuration list for PBXNativeTarget "mtcoreTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BEC069AA1D9315A50067D4F3 /* Debug */,
-				BEC069AB1D9315A50067D4F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

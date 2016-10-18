@@ -1,11 +1,12 @@
-platform :ios, '10.0'
 
 target 'mt' do
+  platform :ios, '10.0'
   use_frameworks!
   pod 'Swinject', '2.0.0-beta.2'
 end
 
 target 'mtcoreTests' do
+  platform :osx, '10.12'  
   use_frameworks!
   inherit! :search_paths
 
